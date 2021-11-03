@@ -9,8 +9,15 @@ header {
 	margin: 0 auto;
 }
 
+.foto {
+    width: 20%;
+    display: inline-block;
+}
 
 .titulo {
     text-align: right;
     font-size: 45px;
+    position: absolute;
+    top: 120px;
+    right: 0;
 }
