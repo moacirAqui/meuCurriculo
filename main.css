@@ -1,0 +1,16 @@
+header {
+	background-color: lightgreen;
+	padding: 40px 0;
+}
+
+.caixa {
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.titulo {
+    text-align: right;
+    font-size: 45px;
+}
