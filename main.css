@@ -12,6 +12,8 @@ header {
 .foto {
     width: 20%;
     display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .titulo {
