@@ -16,10 +16,19 @@ header {
     border-radius: 10px;
 }
 
+.foto:hover {
+    width: 25%;
+}
+
 .titulo {
     text-align: right;
-    font-size: 45px;
+    font-size: 55px;
     position: absolute;
     top: 120px;
     right: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.titulo:hover {
+    font-size: 75px;
 }
