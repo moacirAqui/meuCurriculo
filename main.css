@@ -41,6 +41,16 @@ header {
     margin-left: 100px;
 }
 
+.logotipo {
+    display: inline-block;
+    position: relative;
+    width: 09%;
+    vertical-align: top;
+    padding: 2em;
+    ;
+
+}
+
 .tituloPrincipal {
     text-align: left;
     font-size: 30px;
@@ -50,6 +60,7 @@ header {
 
 .empresas, .listaFormacoes, .listaHabilidades {
     padding: 30px;
+    display: inline-block;
 }
 
 .tituloExperiencia, .curso {
