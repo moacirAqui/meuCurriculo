@@ -1,5 +1,4 @@
 header {
-	background-color: lightgreen;
 	padding: 40px 0;
 }
 
@@ -14,21 +13,66 @@ header {
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
+    transition: 300ms;
 }
 
 .foto:hover {
     width: 25%;
+    transition: 300ms;
 }
 
-.titulo {
+
+.meuNome {
     text-align: right;
     font-size: 55px;
     position: absolute;
     top: 120px;
     right: 0;
     font-family: 'Dancing Script', cursive;
+    transition: 300ms;
 }
 
-.titulo:hover {
+.meuNome:hover {
     font-size: 75px;
+    transition: 300ms;
 }
+
+.experiencia {
+    margin-left: 100px;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2em;
+}
+
+.empresas {
+    padding: 30px;
+}
+
+.tituloExperiencia {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.cargo{
+    font-size: 22px;
+    font-style: italic;
+}
+
+.itens {
+    font-size: 20px;
+}
+
+.itens:before {
+	content: "★";
+}
+
+main {
+    background: linear-gradient(white, gray);
+}
+
