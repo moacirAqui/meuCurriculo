@@ -37,42 +37,47 @@ header {
     transition: 300ms;
 }
 
-.experiencia {
+.experiencia, .formacoes, .outrasHabilidades {
     margin-left: 100px;
 }
 
 .tituloPrincipal {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     font-weight: bold;
     margin: 2em;
 }
 
-.empresas {
+.empresas, .listaFormacoes, .listaHabilidades {
     padding: 30px;
 }
 
-.tituloExperiencia {
+.tituloExperiencia, .curso {
     font-size: 25px;
     font-style: italic;
     font-weight: bold;
 
 }
 
-.cargo{
+.cargo, .instituicao{
     font-size: 22px;
     font-style: italic;
 }
 
-.itens {
+.itens, .habilidades {
     font-size: 20px;
 }
 
-.itens:before {
+.itens:before, .habilidades:before {
 	content: "★";
 }
 
 main {
     background: linear-gradient(white, gray);
+}
+
+.periodo {
+    font-size: 22px;
+    font-style: italic;
 }
 
