@@ -81,3 +81,13 @@ main {
     font-style: italic;
 }
 
+footer {
+    padding: 3em;
+    background: linear-gradient(gray, black);
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
