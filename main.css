@@ -61,6 +61,7 @@ header {
 .empresas, .listaFormacoes, .listaHabilidades {
     padding: 30px;
     display: inline-block;
+    width: 60%;
 }
 
 .tituloExperiencia, .curso {
